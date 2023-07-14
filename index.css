@@ -1,5 +1,8 @@
 @charset "UTF-8";
-
+/* cores:
+    #676FE0
+    #65F795
+*/
 *{
     margin:0px;
     padding:0px;
@@ -18,6 +21,7 @@ body{
     border: 1px solid #c7c5c5;
     float:left;
     font-weight: bold;
+    font-style: normal;
 }
 
 .menu li{
@@ -27,7 +31,7 @@ body{
 }
 
 .menu li a{
-    color: #8a6694;
+    color: rgb(163, 111, 179);
     text-decoration: none;
     padding: 5px 10px;
     display: block;
@@ -60,8 +64,8 @@ body{
 
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
-    font-size: 35px;
     text-align: center;
-    color:rgb(208, 137, 230);
+    font-size: x-large;
+    font-size: 35px;  
+    color: #8365F7;
 }
