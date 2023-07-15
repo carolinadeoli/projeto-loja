@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; 
+    color: #8365F7;
+}
+fieldset{
+    border-radius: 5px;
+}
