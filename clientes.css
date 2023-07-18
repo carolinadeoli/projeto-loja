@@ -5,6 +5,12 @@ h1{
     text-align: center; 
     color: #8365F7;
 }
+h2{
+    font-weight: bolder;
+}
+legend{
+    font-weight: bold;
+}
 fieldset{
     border-radius: 5px;
 }
