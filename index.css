@@ -3,6 +3,8 @@
     #676FE0
     #65F795
     #A461ED
+    #8365F7
+    #8365F7;
 */
 *{
     margin:0px;
@@ -12,10 +14,11 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    font-style: italic;
+    font-style: normal;
     background-image: url(ftlivro3.jpg);
     background-size: cover;
 }
+
 
 .menu{
     list-style: none;
@@ -23,6 +26,7 @@ body{
     float:left;
     font-weight: bold;
     font-style: normal;
+        
 }
 
 .menu li{
@@ -47,10 +51,11 @@ body{
 
 .menu li ul{
     position: absolute;
-    top:25px;
+    top: 25px;
     left: 0px;
     background-color: #fff;
     display: none;
+    
 }
 
 .menu li:hover ul, .menu li.over ul{
@@ -61,12 +66,18 @@ body{
     border: 1px solid #c7c5c5;
     display: block;
     width: 150px;
+    
 }
 
-h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+h1 span{
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
     font-size: 35px;  
-    color: #8365F7;
+    color: #896ef5;
+    background-color: rgba(82, 0, 82, 0.616);
+    left:50%;
+    transform:translate(-50%);
+    position: absolute;
 }
+    
