@@ -8,8 +8,9 @@
 </head>
 <body>
     <h1>Contato</h1>
-    <img src="ftlivro2.jpg" alt="">
+    <img src="imagens/ftlivro2.jpg" alt="foto de livraria">
     <fieldset>
+        <legend>Informações de Contato</legend>
         <label for="nome">Nome: </label>
         <input type="text" name="nome">
         <label for="sobrenome" class="texto" >Sobrenome:</label>
@@ -17,7 +18,12 @@
         <label for="text" name="email" class="texto">E-mail:</label>
         <input type="text" name="email">
         <label for="mensagem" class="texto">Mensagem:</label>
-        <input type="text" name="mensagem" size="200">        
+        <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>       
     </fieldset>
+    
+    <input type="submit" class="botoes">
+    <input type="reset" value="Limpar" class="botoes">
+    
+    <a href="index.html">Voltar à Página Principal</a>
 </body>
 </html>

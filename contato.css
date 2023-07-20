@@ -1,12 +1,32 @@
+
 h1{
-    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; 
+    color: #8365F7;
 }
 img{
     align-items: left;
     height:13%;
     width:13%;
     border-radius: 30px;
+    padding: 15px;
+    
+}
+legend{
+    font-weight: bold;
 }
 label{
     display: block;
+    padding: 5px;
+}
+fieldset{
+    border-radius: 5px;
+    margin: 5px;
+}
+.botoes{
+    margin: 5px;
+}
+a{
+    display: block;
+    margin:5px;
 }
