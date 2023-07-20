@@ -1,0 +1,12 @@
+h1{
+    text-align:center;
+}
+img{
+    align-items: left;
+    height:13%;
+    width:13%;
+    border-radius: 30px;
+}
+label{
+    display: block;
+}
