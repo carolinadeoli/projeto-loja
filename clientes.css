@@ -13,4 +13,10 @@ legend{
 }
 fieldset{
     border-radius: 5px;
+    
 }
+a{
+    color:rgba(82, 0, 82, 0.74);
+    text-decoration: none;
+}
+
