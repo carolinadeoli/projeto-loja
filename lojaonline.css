@@ -40,10 +40,12 @@ img{
     font-weight: bold;
     font-style: normal; 
     border: 1px solid #c7c5c5;
+   
 }
 .menu li{
     border-right: 1px solid #c7c5c5;
     display:inline-block;
+    position: relative;
     
 }
 .menu li a{
@@ -65,6 +67,7 @@ img{
     left: 0px;
     background-color: #fff;
     display: none;
+    position: absolute;
     
 }
 
