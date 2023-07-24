@@ -17,14 +17,14 @@ header {
     font-size: large;
     font-size: 20px;  
     color: #896ef5;
-    position: sticky;
+    position: relative;
     padding: 10px;
-  
+    
 }
 
 main{
-    background-color: yellow;
     
+    padding: 20px;
 
 }
 
@@ -64,7 +64,7 @@ img{
     top: 25px;
     left: 0px;
     background-color: #fff;
-    display:none;
+    display: none;
     
 }
 
@@ -79,4 +79,12 @@ img{
     
 }
 
+footer{
+    text-align: center;
+    font-size: 0.9em;
+    padding:5px;
+}
 
+footer span{
+    color:rgba(82, 0, 82, 0.74);
+}
