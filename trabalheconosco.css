@@ -35,18 +35,23 @@ fieldset{
     width:50%;
     margin: auto;
     border-radius: 5px;
-    padding: 10px;
-    
+    padding: 15px;
+    margin-top: 10px;
 }
 
-div {
-    align-items: center;
-    
+
+
+.botoes {
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 
 a{
-    text-align: center;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
     border-radius: 5px;
     padding: 10px;
     text-decoration: none;
