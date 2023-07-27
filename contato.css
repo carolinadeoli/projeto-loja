@@ -4,6 +4,7 @@ h1{
     text-align: center; 
     color: #8365F7;
 }
+
 img{
     align-items: left;
     height:13%;
@@ -12,22 +13,27 @@ img{
     padding: 15px;
     
 }
+
 legend{
     font-weight: bold;
     text-align: center;
 }
+
 label{
     display: block;
     padding: 5px;
 }
+
 fieldset{
     border-radius: 5px;
     margin: 5px;
     width: 500px;     
 }
+
 .botoes{
     margin: 5px;
 }
+
 a{
     display: block;
     margin:5px;
