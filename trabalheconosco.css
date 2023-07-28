@@ -39,14 +39,11 @@ fieldset{
     margin-top: 10px;
 }
 
-
-
-.botoes {
-    width: 960px;
-    margin: 0 auto;
+.botoes{
+    text-align: center;
     padding: 10px;
+    
 }
-
 
 a{
     display: flex;
@@ -58,3 +55,4 @@ a{
     color:rgba(82, 0, 82, 0.74);
     
 }
+
