@@ -1,22 +1,56 @@
 @charset "UTF-8";
 
 h1{
+    
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center; 
     color: #8365F7;
+    
 }
+
 h2{
     font-weight: bolder;
 }
+
 legend{
     font-weight: bold;
 }
-fieldset{
+
+/* fieldset{
+    width:50%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+}  */
+ fieldset{
     border-radius: 5px;
     
-}
+} 
+
 a{
-    color:rgba(82, 0, 82, 0.74);
+    text-align: center;
+    display: block;
+    margin:5px;
     text-decoration: none;
+    color:rgba(82, 0, 82, 0.74);
+    
 }
+
+@media (min-width: 500px) and (max-width: 768px) {
+    h1{
+        font-size: 25px;
+        
+    }
+    h2{
+        font-size:20px;
+    }
+    
+    td{
+        display: block;
+    }
+
+}
+
+
 
