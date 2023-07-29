@@ -26,7 +26,8 @@ body{
     font-style: normal;
     background-image: url(imagens/ftlivro3.jpg);
     background-size: cover;
-    
+    height: 100vh;
+    width:100vw;
 }
 
 
@@ -79,16 +80,37 @@ body{
     
 }
 
+
 h1 span{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
-    font-size: 35px;  
+
+    font-family: Georgia, 'Times New Roman', Times, serif; 
     color: #896ef5;
     background-color: rgba(82, 0, 82, 0.616);
-    left:50%;
-    transform:translate(-50%);
-    position: absolute;
-}
     
+    
+    }
 
+
+@media (min-width: 768px) {
+    h1 span{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        font-size: 35px; 
+        
+    }
+}   
+
+@media (min-width: 500px) and (max-width: 768px){
+    h1 span{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        font-size: 32px; 
+
+    }
+    
+    .menu{
+        font-size: 14px;
+    }
+}
