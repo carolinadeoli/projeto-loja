@@ -31,8 +31,8 @@ main{
 img{
     display: block;
     margin: auto;
-    width: 200px;
-    height: 200px;
+    width: 28%;
+    height: 28%;
 }
 
 .menu{
@@ -86,8 +86,29 @@ footer{
     text-align: center;
     font-size: 0.9em;
     padding:5px;
+    
 }
 
 footer span{
     color:rgba(82, 0, 82, 0.74);
+    
 }
+
+@media (min-width: 500px) and (max-width: 768px) {
+    h1{
+        font-size: 1.5em;
+        
+    }
+    .menu{
+        font-size: 0.9em;
+    }
+    footer{
+        font-size: 0.8em;
+    }
+
+    img{
+        width:53%;
+        height:53%;
+    }
+}
+

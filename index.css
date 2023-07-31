@@ -88,7 +88,7 @@ h1 span{
     background-color: rgba(82, 0, 82, 0.616);
     
     
-    }
+}
 
 
 @media (min-width: 768px) {
@@ -96,7 +96,7 @@ h1 span{
         position: relative;
         display: flex;
         justify-content: center;
-        font-size: 35px; 
+        font-size: 1.3em; 
         
     }
 }   
@@ -106,11 +106,11 @@ h1 span{
         position: relative;
         display: flex;
         justify-content: center;
-        font-size: 32px; 
+        font-size: 1.1em; 
 
     }
     
     .menu{
-        font-size: 14px;
+        font-size: 0.9em;
     }
 }
