@@ -32,8 +32,10 @@ fieldset{
 
 
 .botoes{
-    text-align: center;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap:0.9em;
+    margin-top: 10px;
     
 }
 
@@ -42,7 +44,7 @@ a{
     justify-content: center;  
     align-items: center;
     border-radius: 5px;
-    padding: 10px;
+    padding-top: 10px;
     text-decoration: none;
     color:rgba(82, 0, 82, 0.74);
     

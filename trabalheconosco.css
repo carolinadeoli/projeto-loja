@@ -40,8 +40,10 @@ fieldset{
 } 
 
 .botoes{
-    text-align: center;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap:0.9em;
+    margin-top: 10px;
     
 }
 
