@@ -8,7 +8,7 @@ Grandes Telas: acima de 1200px;
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center; 
-    color: #8365F7;
+    color: #84ab6d;
 }
 
 label{
@@ -30,6 +30,13 @@ fieldset{
     margin-top: 10px;
 } 
 
+h2, legend {
+    color: #968572;
+}
+
+label,input{
+   color: #685c4f;
+}
 
 .botoes{
     display: flex;
@@ -46,7 +53,7 @@ a{
     border-radius: 5px;
     padding-top: 10px;
     text-decoration: none;
-    color:rgba(82, 0, 82, 0.74);
+    color: #968572;
     
 }
 

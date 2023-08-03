@@ -4,8 +4,8 @@ h1{
     
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center; 
-    color: #8365F7;
-    
+    /* color: #8365F7; */
+    color:#84ab6d;
 }
 
 h2{
@@ -19,15 +19,25 @@ legend{
 
  fieldset{
     border-radius: 5px;
+    border-color: #bba58fa1;
     
 } 
+h2, legend {
+    color: #968572;
+}
+
+label,input{
+   color: #685c4f;
+}
+
 
 a{
     text-align: center;
     display: block;
     margin:5px;
     text-decoration: none;
-    color:rgba(82, 0, 82, 0.74);
+    /* color:rgba(82, 0, 82, 0.74); */
+    color: #968572;
     
 }
 

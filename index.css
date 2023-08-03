@@ -1,10 +1,12 @@
 @charset "UTF-8";
 /* cores:
-    #676FE0
-    #65F795
-    #A461ED
-    #8365F7
-    #8365F7;
+   #bba58f;(marrom claro);
+   #84ab6d;(verde militar);
+   #97b546;(verde claro);
+   #689d89(verde com tom azulado);
+   #fafbf7(quase branco);
+   #bbcf9f(verde pastel);
+   color: #896ef5;
 */
 
 /* Typical Device breakpoints
@@ -32,30 +34,35 @@ body{
 
 
 .menu{
+    
     list-style: none;
-    border: 1px solid #c7c5c5;
-    float:left;
+    /* border: 1px solid #c7c5c5; */
+    display: flex;
     font-weight: bold;
     font-style: normal;
+    background-color: #fafbf7; 
         
 }
 
 .menu li{
     position: relative;
     float:left;
-    border-right: 1px solid #c7c5c5;
+    /* border-right: 1px solid #c7c5c5; */
 }
 
 .menu li a{
-    color: rgb(163, 111, 179);
+    color:#689d89;
+    /* color: rgb(163, 111, 179); */
     text-decoration: none;
     padding: 5px 10px;
     display: block;
 }
 
 .menu li a:hover{
-    background: #8a6694;
-    color: #fff;
+   background: #bba58f;
+    /* background: #8a6694; */
+    /* color: #fff; */
+    color:#fafbf7;
     box-shadow: 0 3px 5px 0 #ccc;
     text-shadow: 0px 0px 5px#fff;
 }
@@ -84,9 +91,8 @@ body{
 h1 span{
 
     font-family: Georgia, 'Times New Roman', Times, serif; 
-    color: #896ef5;
-    background-color: rgba(82, 0, 82, 0.616);
-    
+    color:#84ab6d;
+    background-color: #fafbf7;
     
 }
 
