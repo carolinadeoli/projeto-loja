@@ -30,10 +30,12 @@ main{
 }
 
 img{
-    display: block;
-    margin: auto;
-    width: 28%;
-    height: 28%;
+    
+    display: inline-flex;
+    padding-top: 2em;
+    width: 20%;
+    height: 20%;
+    
 }
 
 .menu{
@@ -134,3 +136,10 @@ a{
     }
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+    
+    img{
+        width:22%;
+        height:22%;
+    }
+}
