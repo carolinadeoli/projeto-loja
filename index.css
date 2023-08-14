@@ -20,23 +20,59 @@ Grandes Telas: acima de 1200px;
 *{
     margin:0px;
     padding:0px;
+    box-sizing:border-box;
+}
+
+html{
+    font-size:62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font: 62.5% 400;
+}
+
+p, a{
+    font-size:1.6rem;
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-style: normal;
-    background-image: url(imagens/oleo1.jpg);
     background-size: cover;
     height: 100vh;
     width:100vw;
 }
 
+.header{
+    margin:auto; 
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.header img{
+    width: 8vw;
+    border-radius: 50%;
+    display: flex;
+    /* margin-right: 25%; */
+      
+}
+.container-light{
+    background-color: #fafbf7;
+    color:#658354;
+}
+
+.container-hero{
+    background-color: #bba58f;
+    color:#fbfcf9;
+}
+
+.container-green{
+    background-color:#84ab6d; 
+    color: #fafbf7;
+}
 
 .menu{
     
     list-style: none;
-    /* border: 1px solid #c7c5c5; */
     display: flex;
     font-weight: bold;
     font-style: normal;
@@ -44,24 +80,22 @@ body{
         
 }
 
-.menu li{
+.menu li{  
     position: relative;
-    float:left;
-    /* border-right: 1px solid #c7c5c5; */
+    display: flex;
+    /* float:left; */
+   
 }
 
 .menu li a{
     color:#689d89;
-    /* color: rgb(163, 111, 179); */
     text-decoration: none;
     padding: 5px 10px;
     display: block;
 }
 
 .menu li a:hover{
-   background: #bba58f;
-    /* background: #8a6694; */
-    /* color: #fff; */
+    background: #bba58f;
     color:#fafbf7;
     box-shadow: 0 3px 5px 0 #ccc;
     text-shadow: 0px 0px 5px#fff;
@@ -87,14 +121,10 @@ body{
     
 }
 
-
-h1 span{
-
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    color:#84ab6d;
-    background-color: #fafbf7;
-    
+a{
+    color: #689d89;
 }
+
 
 
 @media (min-width: 768px) {
