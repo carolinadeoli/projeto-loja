@@ -298,15 +298,35 @@ h3{
     }
 
     .container-green img{
-        width:40vw;
+        width:45vw;
     }
-
+    
+    .container-somos{
+        gap:2rem;
+    }
     .sobrenos{
         font-size:1.3em;
+        gap:2rem;
        
     }
 
-    .sobrenos p{
-        font-size: 0.7em;
+    .sobrenosp{
+        font-size: 0.9em;
+        
     }
+
+    .contatos_address{
+        text-align:right;
+        font-size: 0.9em;
+        padding:0.5rem;
+        
+    }
+    
+    .footer{
+        font-size:0.7em;
+        text-align:center;
+        padding:0.5em;
+    
+    }
+
 }
