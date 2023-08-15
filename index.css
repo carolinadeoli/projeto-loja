@@ -64,7 +64,7 @@ body{
 
 .container-hero{
     background-color: #bba58f;
-    color: #658354;
+    color: #fafbf7;
     padding-top:1px;
 }
 
@@ -82,18 +82,23 @@ h1{
     
 }
 
-h2{
+/* h2{
     font-size:1.5em;
-    padding-bottom: 10px;
-}
+    /* padding-bottom: 10px; */
+    /* padding:2em;
+} */ 
 
 h3{
     font-size:1.2em;
     padding-bottom: 10px;
 }
-.sobrenos{
-    font-size:2em;
+
+.section_title{
+    padding:2em 0;
+    text-align: center;
+    margin:0;
 }
+
 
 /* nav */
 .menu{
@@ -103,7 +108,7 @@ h3{
     font-weight: bold;
     font-style: normal;
     background-color: #fafbf7;
-    font-size: 1em; 
+    font-size: 0.9em; 
         
 }
 
@@ -162,8 +167,10 @@ h3{
   
 }
 
+/* produtos */
 .container-produtos{
     text-align: center;
+    width:100%;
 }
 
 .produtosContainer img{
@@ -171,21 +178,65 @@ h3{
 }
 .produtosContainer{
     display: flex;
-    
+    /* text-align: center; */
+    gap:1.1em;
+       
 }
 
 .produto_card{
     border:1px solid #bba58f;
     flex:1;
+    border-radius:8px;
+    
     
 }
 .produto_card_content{
     line-height: 1.5;
     padding:1em;
+    
+ 
 }
-a{
-    color:#689d89;
+
+.produto_card img{
+    display:inline-block;
+   
 }
+
+/* botao nossa loja */
+.nossaloja{
+    color:#658354;
+    text-decoration: none;
+    margin:3.5em 0;
+    padding:1rem 2rem;
+    display: inline-block;
+    background-color: #bba58f;
+    width:5vw;
+    border-radius: 5px;
+    font-weight: bold;
+          
+}
+
+/* quem somos */
+.sobrenos{
+    font-size:2em;
+    text-align:center;
+    margin-top:1em;
+    /* se der problema retirar alinhamento acima */
+}
+
+.sobrenos p{
+    line-height: 1.7;
+}
+
+.container-somos{
+    display: flex;
+    gap:5rem;
+    padding-top:5rem;
+}
+
+/* contatos */
+
+
 
 
 
