@@ -45,6 +45,8 @@ body{
     margin:auto; 
     display: flex;
     justify-content:space-evenly;
+    
+    
 }
 
 .header img{
@@ -82,12 +84,6 @@ h1{
     
 }
 
-/* h2{
-    font-size:1.5em;
-    /* padding-bottom: 10px; */
-    /* padding:2em;
-} */ 
-
 h3{
     font-size:1.2em;
     padding-bottom: 10px;
@@ -108,7 +104,8 @@ h3{
     font-weight: bold;
     font-style: normal;
     background-color: #fafbf7;
-    font-size: 0.9em; 
+    font-size: 0.9em;
+    
         
 }
 
@@ -231,13 +228,23 @@ h3{
 .container-somos{
     display: flex;
     gap:5rem;
-    padding-top:5rem;
 }
 
 /* contatos */
 
+.contatos_address{
+    text-align:right;
+    font: 1.8rem;
+    padding:1rem;
+    
+}
 
+.footer{
+    font-size:0.9em;
+    text-align:center;
+    padding:0.8em;
 
+}
 
 
 @media (min-width: 768px) {
