@@ -50,7 +50,7 @@ body{
 }
 
 .header img{
-    width: 8vw;
+    width: 6vw;
     border-radius: 50%;
     display: flex;
     /* margin-right: 25%; */
@@ -248,8 +248,31 @@ h3{
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width:992px) {
+    .nossaloja{
+        color:#658354;
+        text-decoration: none;
+        margin:1.5em 3rem;
+        padding:0.7rem 1.5rem; 
+        width:6vw;
+        font-size:0.9em;
+        text-align:left;
+              
+    }
+
+    .header_content{
+        font-size: 0.7em;
+    }
+    .header img{
+        width:9vw;
+    }
+
     
+    .container-hero__banner img{
+        width: 20vw;
+      
+    }
+   
 }   
 
 @media (min-width: 500px) and (max-width: 768px){
@@ -291,8 +314,8 @@ h3{
         text-decoration: none;
         margin:1.5em 3rem;
         padding:0.7rem 1.5rem; 
-        width:5vw;
-        font-size:0.8em;
+        width:6vw;
+        font-size:0.7em;
         text-align:left;
               
     }

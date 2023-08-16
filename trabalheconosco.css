@@ -1,26 +1,41 @@
 @charset "UTF-8";
 
+html{
+    background-color:#fafbf7;
+}
+
 *{
     margin:0px;
     padding:0px;
 }
 
 body{
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-style: normal;
+    
+   
 }
 
-header {
-    text-align: center;
+.header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;  
     color: #84ab6d;
     position: relative;
     padding: 10px;
+    text-align:center;
     
 }
 
+form{
+    background-color: #84ab6d48;
+    width:100%;
+    display: block;
+    align-content: center;
+    padding:1em;
+    
+}
 legend{
     font-weight: bold;
     text-align: center;
@@ -32,19 +47,27 @@ label{
 }
 
 fieldset{
-    width:50%;
+    width: 20%;
     margin: auto;
-    border-radius: 5px;
     padding: 15px;
     margin-top: 10px;
+    border:none;
+    
 } 
 
 h2, legend {
     color: #968572;
 }
 
-label,input{
+label,input,textarea{
    color: #685c4f;
+   box-sizing: border-box;
+     
+}
+
+input, textarea{
+    background-color: #fafbf7;
+    border:none;
 }
 
 .botoes{
@@ -52,8 +75,11 @@ label,input{
     justify-content: center;
     gap:0.9em;
     margin-top: 10px;
-    
+   
+        
 }
+
+
 
 a{
     display: flex;

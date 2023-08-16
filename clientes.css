@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+
+body{
+    background-color:  #fafbf7;
+}
 h1{
     
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -10,26 +14,47 @@ h1{
 
 h2{
     font-weight: bolder;
+    text-align: center;
 }
+
 
 legend{
     font-weight: bold;
 }
 
-
+form{
+    background-color: #84ab6d48;
+    width:100%;
+    display: block; 
+    align-content: center; 
+    padding:0.4em;
+    
+}
  fieldset{
-    border-radius: 5px;
-    border-color: #bba58fa1;
+    border:none;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    margin-top: 10px;
+    
     
 } 
+    
+ 
 h2, legend {
     color: #968572;
 }
 
-label,input{
-   color: #685c4f;
-}
+label,input,textarea{
+    color: #685c4f;
+    box-sizing: border-box;
+      
+ }
 
+ input, textarea{
+    background-color: #fafbf7;
+    border:none;
+}
 
 a{
     text-align: center;
@@ -38,6 +63,7 @@ a{
     text-decoration: none;
     /* color:rgba(82, 0, 82, 0.74); */
     color: #968572;
+   
     
 }
 
@@ -46,6 +72,7 @@ a{
     justify-content: center;
     gap:0.8em;
 }
+
 
 @media (min-width: 500px) and (max-width: 768px) {
     h1{

@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalhe Conosco</title>
     <link rel="stylesheet" href="trabalheconosco.css">
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
 </head>
 <body>
-    <header><h1>Trabalhe Conosco</h1></header>
+    <header class="header">
+        <h1>Trabalhe Conosco</h1>
+        <!-- <img src="imagens/logo.png" alt="logo"> -->
+    </header>
     <main>
         <fieldset>
+        <form action="get">
             <legend>Seus Dados</legend>
             <label for="nome">Nome:</label>
             <input type="text" name="nome" size="50">
@@ -21,15 +26,19 @@
             <textarea name="exp" id="iexp" cols="50" rows="8"></textarea>
             <label for="cursos">Cursos Realizados:</label>
             <textarea name="cursos" id="icursos" cols="50" rows="8"></textarea>
-            <label for="redes">Redes sociais:</label>
-            <input type="text" name="redes" size="50">
+            <!-- <label for="redes">Redes sociais:</label>
+            <input type="text" name="redes" size="50"> -->
+            <label for="redes">Redes Sociais:</label>
+            <textarea name="redes" id="iredes" cols="50" rows="7"></textarea>
+        </form>
             
         </fieldset>
         
         <div class="botoes">
-            <input type="submit" >
-            <input type="reset" value="Limpar">
+            <button type="submit" >Enviar</button>
+            <button type="reset" >Limpar</button>
         </div>
+        
         <a href="index.html">Voltar à Página Principal</a>
     </main>
 </body>
