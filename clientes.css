@@ -86,7 +86,11 @@ a{
     td{
         display: block;
     }
-
+    
+    .login{
+        width:102%;
+        margin-right: 1em;
+    }
 }
 
 
