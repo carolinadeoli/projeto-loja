@@ -11,7 +11,10 @@
     
         <img src="imagens/oleo2.jpg" alt="foto de frascos de óleos essencias">
     
-    <fieldset id="infos">
+    
+    
+    <fieldset>
+        <form action="get">
         <legend>Informações de Contato</legend>
         <label for="nome">Nome: </label>
         <input type="text" name="nome" size="30">
@@ -20,15 +23,18 @@
         <label for="text" name="email" >E-mail:</label>
         <input type="text" name="email" size="30">
         <label for="mensagem" class="texto">Mensagem:</label>
-        <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Digite sua mensagem aqui.."></textarea>       
+        <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Digite sua mensagem aqui.."></textarea>
+    </form>       
     </fieldset>
+    </div>
+    
     
    
     <div class="botoes">
-        <input type="submit" >
-        <input type="reset" value="Limpar">
+        <button type="submit" >Enviar</button>
+        <button type="reset" >Limpar</button>
     </div>
     
-    <a href="index.html">Voltar à Página Principal</a>
+    <a href="index.html" target="_blank">Voltar à Página Principal</a>
 </body>
 </html>
