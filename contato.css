@@ -6,6 +6,7 @@ Desktop: 992px até 1200px;
 Grandes Telas: acima de 1200px;
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
 html{
     background-color:#fafbf7;
 }
@@ -13,11 +14,12 @@ html{
 *{
     margin:0px;
     padding:0px;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
     
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 15px;
     font-style: normal;
     
@@ -25,7 +27,7 @@ body{
 }
 
 h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
     text-align: center; 
     color: #84ab6d;
 }
