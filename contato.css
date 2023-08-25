@@ -76,7 +76,7 @@ input, textarea{
 
 .botoes{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     gap:0.9em;
     margin-top: 10px;
            
@@ -123,8 +123,8 @@ img{
 @media (min-width: 500px) and (max-width: 768px){
     img{
        
-        height:24vh;
-        width:38vw;
+        height:23vh;
+        width:32vw;
     
     }
 

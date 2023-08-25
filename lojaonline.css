@@ -27,9 +27,9 @@ body{
     margin-right: 25%;
     color:#84ab6d;
     font-size: large;
-    font-size: 38px; 
+    font-size: 2.5em; 
     background-color: #fafbf7;
-    font-weight: 500;
+    font-weight: 900;
     font-style: italic;
 
 
@@ -43,7 +43,7 @@ body{
     font-weight: bold;
     font-style: normal;
     background-color: #fafbf7;
-    font-size: 1em;
+    font-size: 0.9em;
     
         
 }
@@ -89,19 +89,12 @@ body{
     width: 150px;
     
 }
-main{
-    
-    padding: 20px;
 
-}
-
-img{
-    
-    display: inline-flex;
-    padding-top: 2em;
-    width: 20%;
-    height: 20%;
-    
+main h3, h4{
+    color: #8a7b69;
+    display: flex;
+    justify-content: center;
+    margin-top:15px;
 }
 
 
@@ -123,11 +116,11 @@ a{
 
 @media (min-width: 500px) and (max-width: 768px) {
     .title{
-        font-size: 1.5em;
+        font-size: 1.3em;
         
     }
     .menu{
-        font-size: 0.9em;
+        font-size: 0.7em;
     }
     footer{
         font-size: 0.8em;
@@ -141,8 +134,12 @@ a{
 
 @media (min-width: 768px) and (max-width: 992px) {
     .title{
-        font-size: 1.5em;
+        font-size: 1.3em;
         
+    }
+
+    .menu{
+        font-size: 0.9em;
     }
     img{
         width:22%;
