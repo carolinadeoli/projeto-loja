@@ -48,7 +48,7 @@ Grandes Telas: acima de 1200px;
 
 @media (min-width: 300px) and (max-width: 768px){
     .header img{
-        width:15vw;
+        width:18vw;
     }
 
     h1{
@@ -57,7 +57,7 @@ Grandes Telas: acima de 1200px;
 
 
     .menu{
-        font-size: 0.8em;
+        font-size: 0.6em;
     }
 
     .container-hero__banner img{
