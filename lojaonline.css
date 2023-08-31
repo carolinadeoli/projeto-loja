@@ -1,6 +1,40 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .title{
+        font-size: 1.3em;
+        
+    }
+    .menu{
+        font-size: 0.7em;
+    }
+    footer{
+        font-size: 0.8em;
+    }
+
+    img{
+        width:53%;
+        height:53%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .title{
+        font-size: 1.3em;
+        
+    }
+
+    .menu{
+        font-size: 0.9em;
+    }
+    img{
+        width:22%;
+        height:22%;
+    }
+}
+
 *{
     margin:0px;
     padding:0px;
@@ -114,35 +148,3 @@ a{
     text-decoration: none;
 }
 
-@media (min-width: 500px) and (max-width: 768px) {
-    .title{
-        font-size: 1.3em;
-        
-    }
-    .menu{
-        font-size: 0.7em;
-    }
-    footer{
-        font-size: 0.8em;
-    }
-
-    img{
-        width:53%;
-        height:53%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-    .title{
-        font-size: 1.3em;
-        
-    }
-
-    .menu{
-        font-size: 0.9em;
-    }
-    img{
-        width:22%;
-        height:22%;
-    }
-}

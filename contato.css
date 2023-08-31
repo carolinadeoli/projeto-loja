@@ -7,6 +7,35 @@ Grandes Telas: acima de 1200px;
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
+
+@media (min-width: 992px) {
+    img{
+        height:20vh;
+        width:20vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    img{
+       
+        height:30vh;
+        width:30vw;
+    
+    }
+
+}
+
+@media (min-width: 300px) and (max-width: 768px){
+    img{
+       
+        height:23vh;
+        width:32vw;
+    
+    }
+
+}
+  
+
 html{
     background-color:#fafbf7;
 }
@@ -103,32 +132,6 @@ img{
     
 }
 
-@media (min-width: 992px) {
-    img{
-        height:20vh;
-        width:20vw;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 992px){
-    img{
-       
-        height:30vh;
-        width:30vw;
-    
-    }
-
-}
-
-@media (min-width: 500px) and (max-width: 768px){
-    img{
-       
-        height:23vh;
-        width:32vw;
-    
-    }
-
-}
-     
+   
 
 
