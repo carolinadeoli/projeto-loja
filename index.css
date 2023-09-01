@@ -19,111 +19,6 @@ Grandes Telas: acima de 1200px;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
 
-@media (min-width: 768px) and (max-width:992px) {
-    .nossaloja{
-        color:#658354;
-        text-decoration: none;
-        margin:1.5em 3rem;
-        padding:0.7rem 1.5rem; 
-        width:6vw;
-        font-size:0.9em;
-        text-align:left;
-              
-    }
-
-    .header_content{
-        font-size: 0.7em;
-    }
-    .header img{
-        width:9vw;
-    }
-
-    
-    .container-hero__banner img{
-        width: 20vw;
-      
-    }
-   
-}   
-
-@media (min-width: 300px) and (max-width: 768px){
-    .header img{
-        width:18vw;
-    }
-
-    h1{
-        font-size: 1.3em;
-    }
-
-
-    .menu{
-        font-size: 0.6em;
-    }
-
-    .container-hero__banner img{
-        width: 38vw;
-      
-    }
-
-    .section_title{
-        font-size: 1.1em;
-    }
-    
-    h3{
-        font-size:1em;
-    }
-    .produto_card{
-        font-size:0.9em;
-    }
-
-    .produto_card img{
-        width:100%;
-    }
-
-    .nossaloja{
-        color:#658354;
-        text-decoration: none;
-        margin:1.5em 3rem;
-        padding:0.7rem 1.5rem; 
-        width:6vw;
-        font-size:0.7em;
-        text-align:left;
-              
-    }
-
-    .container-green img{
-        width:45vw;
-    }
-    
-    .container-somos{
-        gap:2rem;
-    }
-    .sobrenos{
-        font-size:1.3em;
-        gap:2rem;
-       
-    }
-
-    .sobrenosp{
-        font-size: 0.9em;
-        
-    }
-
-    .contatos_address{
-        text-align:right;
-        font-size: 0.9em;
-        padding:0.5rem;
-        
-    }
-    
-    .footer{
-        font-size:0.7em;
-        text-align:center;
-        padding:0.5em;
-    
-    }
-
-}
 *{
     margin:0px;
     padding:0px;
@@ -160,7 +55,7 @@ body{
     
 }
 
-.header img{
+#logo{
     width: 6vw;
     border-radius: 50%;
     display: flex;
@@ -362,3 +257,220 @@ h3{
 }
 
 
+@media screen and (min-width:768px) and (max-width:992px) {
+    .nossaloja {
+        color:#658354;
+        text-decoration: none;
+        margin:1.5rem 3rem;
+        padding:0.7rem 1.5rem; 
+        width:6vw;
+        font-size:0.9em;
+        text-align:left;
+       
+              
+    }
+
+    .header_content{
+        font-size: 0.7em;
+    }
+    #logo{
+        width:12vw;
+    } 
+
+    
+    .container-hero__banner img{
+        width: 20vw;
+      
+    } 
+    
+}
+
+@media screen and (min-width:300px) and (max-width:767px){
+    #logo{
+        width:13vw;
+    }
+
+    h1{
+        font-size: 1em;
+    }
+
+
+    .menu{
+        font-size: 0.6em;
+    }
+
+    .container-hero__banner img{
+        /* width: 100%; */
+        width: 40vw;
+      
+    }
+
+    .section_title{
+        font-size: 1.1em;
+    }
+    
+    h3{
+        font-size:1em;
+    }
+    .produto_card{
+        font-size:0.8em;
+    }
+
+    .produto_card img{
+        width:100%;
+    }
+
+    .nossaloja{
+        color:#658354;
+        text-decoration: none;
+        margin:1.5em 3rem;
+        padding:0.7rem 1.5rem; 
+        width:6vw;
+        font-size:0.7em;
+        text-align:left;
+              
+    }
+
+    .container-green img{
+        width:45vw;
+    }
+    
+    .container-somos{
+        gap:2rem;
+    }
+    .sobrenos{
+        font-size:1.3em;
+        gap:2rem;
+       
+    }
+
+    .sobrenosp{
+        font-size: 0.9em;
+        
+    }
+
+    .contatos_address{
+        text-align:right;
+        font-size: 0.9em;
+        padding:0.5rem;
+        
+    }
+    
+    .footer{
+        font-size:0.7em;
+        text-align:center;
+        padding:0.5em;
+    
+    }
+}
+
+
+
+
+
+
+    /* .nossaloja {
+        color:#658354;
+        text-decoration: none;
+        margin:1.5rem 3rem;
+        padding:0.7rem 1.5rem; 
+        width:6vw;
+        font-size:0.9em;
+        text-align:left;
+       
+              
+    }
+
+    .header_content{
+        font-size: 0.7em;
+    }
+    #logo{
+        width:12vw;
+    } 
+
+    
+    .container-hero__banner img{
+        width: 20vw;
+      
+    } 
+    
+   
+
+@media screen (max-width: 767px){
+    #logo{
+        width:55vw;
+    }
+
+    h1{
+        font-size: 1.3em;
+    }
+
+
+    .menu{
+        font-size: 0.6em;
+    }
+
+    .container-hero__banner img{
+        width: 100%;
+      
+    }
+
+    .section_title{
+        font-size: 1.1em;
+    }
+    
+    h3{
+        font-size:1em;
+    }
+    .produto_card{
+        font-size:0.9em;
+    }
+
+    .produto_card img{
+        width:100%;
+    }
+
+    .nossaloja{
+        color:#658354;
+        text-decoration: none;
+        margin:1.5em 3rem;
+        padding:0.7rem 1.5rem; 
+        width:6vw;
+        font-size:0.7em;
+        text-align:left;
+              
+    }
+
+    .container-green img{
+        width:45vw;
+    }
+    
+    .container-somos{
+        gap:2rem;
+    }
+    .sobrenos{
+        font-size:1.3em;
+        gap:2rem;
+       
+    }
+
+    .sobrenosp{
+        font-size: 0.9em;
+        
+    }
+
+    .contatos_address{
+        text-align:right;
+        font-size: 0.9em;
+        padding:0.5rem;
+        
+    }
+    
+    .footer{
+        font-size:0.7em;
+        text-align:center;
+        padding:0.5em;
+    
+    }
+
+} */
