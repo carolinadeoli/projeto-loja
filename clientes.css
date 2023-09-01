@@ -3,7 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
 
-@media (min-width: 768px) and (max-width:992px) {
+@media screen and (min-width: 768px) and (max-width:992px) {
     
     fieldset{
         border:none;
@@ -16,7 +16,7 @@
     
    
 }   
-@media (min-width: 300px) and (max-width: 768px) {
+@media screen and (min-width: 300px) and (max-width: 768px) {
     h1{
         font-size: 25px;
         
