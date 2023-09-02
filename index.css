@@ -164,6 +164,15 @@ h3{
     height:3.3vh;
 }
 
+#escudo{
+    
+    width:2vw;
+    height:3.3vh;
+    
+    
+}
+
+
 /* banner */
 .container-hero__banner{
     display: flex;
