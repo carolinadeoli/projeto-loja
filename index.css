@@ -159,6 +159,11 @@ h3{
     
 }
 
+#carrinho{
+    width:2vw;
+    height:3.3vh;
+}
+
 /* banner */
 .container-hero__banner{
     display: flex;
@@ -282,6 +287,11 @@ h3{
         width: 20vw;
       
     } 
+
+    #carrinho{
+        width:2.5vw;
+        height:3.3vh;
+    }
     
 }
 
@@ -361,6 +371,10 @@ h3{
         text-align:center;
         padding:0.5em;
     
+    }
+    #carrinho{
+        width:2.8vw;
+        height:3vh;
     }
 }
 
