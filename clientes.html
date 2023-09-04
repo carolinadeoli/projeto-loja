@@ -175,7 +175,7 @@
                         <label for="passconfirm">Confirme a senha: </label>
                     </td>
                     <td>
-                        <input type="password" name="passconfirm" id="txtPass">
+                        <input type="password" name="passconfirm" id="txtPassConf">
                     </td>
                 </tr>
             </table>
@@ -190,25 +190,6 @@
     <br>
     <br>
     <a href="index.html">Voltar à Página Principal</a>
-    <script>
-        (function(){
-            'use strict';
-            var $txtUser = document.getElementById('txtUser');
-            var $txtPass = document.getElementById('txtPass');
-            var $txtEmail = document.getElementById('txtEmail');
-            var $btn = document.getElementById('btn');
-
-            $btn.addEventListener('click', function(){
-                // alert('Você enviou seu formulário!')
-                if($txtUser.value ===""|| $txtPass.value==="" || $txtEmail.value===""){
-                    alert('Preencha seu nome de Usuário, Senha e E-mail');
-                } else{
-                    alert('Formulário Enviado!')
-                }
-                
-            })
-        
-        })()
-    </script>
+    <script src="login.js"></script>
 </body>
 </html>
