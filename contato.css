@@ -10,16 +10,16 @@ Grandes Telas: acima de 1200px;
 
 @media (min-width: 992px) {
     img{
-        height:20vh;
-        width:20vw;
+        max-width:320px;
+        /* height:20vh;
+        width:20vw; */
     }
 }
 
 @media (min-width: 768px) and (max-width: 992px){
     img{
        
-        height:30vh;
-        width:30vw;
+        max-width:300px;
     
     }
 
@@ -28,8 +28,9 @@ Grandes Telas: acima de 1200px;
 @media (min-width: 300px) and (max-width: 768px){
     img{
        
-        height:23vh;
-        width:32vw;
+        max-width:200px;
+        /* height:23vh;
+        width:32vw; */
     
     }
 
@@ -55,7 +56,7 @@ body{
    
 }
 
-h1{
+#title{
     
     text-align: center; 
     color: #84ab6d;
@@ -103,13 +104,13 @@ input, textarea{
     border:none;
 }
 
-.botoes{
+/* .botoes{
     display: flex;
     justify-content:center;
     gap:0.9em;
     margin-top: 10px;
            
-}
+} */
 
 a{
     display: flex;
@@ -124,8 +125,6 @@ a{
 
 img{
     
-    display: block;
-    margin: auto;
     text-align: center;
     border-radius: 30px;
     padding: 15px;
