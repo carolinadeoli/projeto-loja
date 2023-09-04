@@ -160,14 +160,16 @@ h3{
 }
 
 #carrinho{
-    width:2vw;
-    height:3.3vh;
+    max-width: 30px;
+    /* width:2vw;
+    height:3.3vh; */
 }
 
 #escudo{
     
-    width:2vw;
-    height:3.3vh;
+    max-width: 22px;
+    /* width:2vw;
+    height:3.3vh; */
     
     
 }
@@ -298,12 +300,14 @@ h3{
     } 
 
     #carrinho{
-        width:2.5vw;
-        height:3.6vh;
+        max-width: 22px;
+        /* width:2.5vw;
+        height:3.6vh; */
     }
     #escudo{
-        width:2.5vw;
-        height:3.6vh;
+        max-width: 22px;
+        /* width:2.5vw;
+        height:3.6vh; */
     }
     
 }
@@ -386,13 +390,16 @@ h3{
     
     }
     #carrinho{
-        width:2.8vw;
-        height:2.6vh;
+        max-width: 18px;
+        /* width:2.8vw;
+        height:2.6vh; */
     }
     
     #escudo{
-        width:2.8vw;
-        height:2.6vh;
+        
+        max-width: 18px;
+        /* width:2.8vw;
+        height:2.6vh; */
     }
 
     #pgto{

@@ -101,7 +101,9 @@ main h3, h4{
     margin:15px;
 }
 
-
+#carrinho{
+    max-width: 30px;
+}
 footer{
     text-align: center;
     font-size: 0.9em;
