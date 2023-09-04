@@ -37,10 +37,6 @@ Grandes Telas: acima de 1200px;
 }
   
 
-html{
-    background-color:#fafbf7;
-}
-
 *{
     margin:0px;
     padding:0px;
@@ -71,27 +67,16 @@ form{
     padding:1em;
     
 }
-legend{
+#lgd{
     font-weight: bold;
     text-align: center;
+    color: #685c4f;
 }
 
 label{
-    display: block;
     padding: 5px;
 }
 
-fieldset{
-    width: 20%;
-    margin: auto;
-    padding: 15px;
-    margin-top: 10px;
-    border:none;
-    
-} 
-legend {
-    color: #968572;
-}
 
 label,input,textarea{
    color: #685c4f;
@@ -104,28 +89,20 @@ input, textarea{
     border:none;
 }
 
-/* .botoes{
-    display: flex;
-    justify-content:center;
-    gap:0.9em;
-    margin-top: 10px;
-           
-} */
 
-a{
+#btn{
+    margin-top: 10px;
+}
+
+#voltar{
     display: flex;
-    justify-content: center;  
-    align-items: center;
-    border-radius: 5px;
-    padding: 10px;
-    text-decoration: none;
-    color: #968572;
+    justify-content: center;
+    padding: 15px;
     
 }
 
 img{
     
-    text-align: center;
     border-radius: 30px;
     padding: 15px;
     
