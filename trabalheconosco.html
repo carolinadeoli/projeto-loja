@@ -5,43 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalhe Conosco</title>
     <link rel="stylesheet" href="trabalheconosco.css">
-    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
 </head>
 <body>
-    <header class="header">
-        <h1 class="h1">Trabalhe Conosco</h1>
-        <!-- <img src="imagens/logo.png" alt="logo"> -->
+    <header>
+        <div class="container">
+            <h1 class="text-center" id="title">Trabalhe Conosco</h1>
+        </div>
     </header>
     <main>
-        <fieldset>
-        <form action="get">
-            <legend>Seus Dados</legend>
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome" size="50">
-            <label for="sobrenome">Sobrenome:</label>
-            <input type="text" name="sobrenome" size="50">
-            <label for="endereco">Endereço:</label>
-            <input type="text" name="endereco" size="50">
-            <label for="exp">Experiência Profissional:</label>
-            <textarea name="exp" id="iexp" cols="50" rows="8"></textarea>
-            <label for="cursos">Cursos Realizados:</label>
-            <textarea name="cursos" id="icursos" cols="50" rows="8"></textarea>
-            <!-- <label for="redes">Redes sociais:</label>
-            <input type="text" name="redes" size="50"> -->
-            <label for="redes">Redes Sociais:</label>
-            <textarea name="redes" id="iredes" cols="50" rows="7"></textarea>
-        </form>
         
-            
-        </fieldset>
-        
-        <div class="botoes">
-            <button type="submit" >Enviar</button>
-            <button type="reset" >Limpar</button>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <fieldset class="col-12">
+                        <form action="get">
+                        <legend id="dados">Seus Dados</legend>
+                        <div class="form-row">
+                            <div class="col">
+                            <label for="nome">Nome: </label>
+                              <input type="text" class="form-control" placeholder="Nome">
+                            </div>
+                            <div class="col">
+                            <label for="nome">Sobrenome: </label>
+                              <input type="text" class="form-control" placeholder="Sobrenome">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlInput1">Endereço:</label>
+                            <input type="email" class="form-control" id="txend" placeholder="Seu Endereço">
+                          </div>
+                          <div class="form-group">
+                            <label for="txtarea">Experiência Profissional:</label>
+                            <textarea class="form-control" id="txtexp" rows="3"></textarea>
+                          </div>
+                          <div class="form-group">
+                            <label for="txtarea">Cursos Realizados: </label>
+                            <textarea class="form-control" id="txtcursos" rows="3"></textarea>
+                          </div>
+                          <div class="form-group">
+                            <label for="txtarea">Redes Sociais:</label>
+                            <textarea class="form-control" id="txtredes" rows="3"></textarea>
+                          </div>
+                        
+                    </form>       
+                    </fieldset>
+                    <div class="d-flex justify-content-center" id="btn">
+                        <button type="submit" class="btn btn-success"  >Enviar</button>
+                        <button type="reset" class ="btn btn-danger " >Limpar</button>
+                    </div>
+                    
+                </div>
+    
+            </div>
+    
         </div>
         
-        <a href="index.html">Voltar à Página Principal</a>
+        
+        <div id="voltar">
+            <a href="index.html" target="_blank">Voltar à Página Principal</a>
+        </div>
+        
     </main>
 </body>
 </html>

@@ -2,10 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
 
-html{
-    background-color:#fafbf7;
-}
-
 *{
     margin:0px;
     padding:0px;
@@ -21,14 +17,9 @@ body{
    
 }
 
-.header {
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
-    font-size: 18px;  
+#title{
     color: #84ab6d;
-    position: relative;
-    padding: 10px;
-    text-align:center;
-    
+    padding: 10px;        
 }
 
 form{
@@ -39,9 +30,10 @@ form{
     padding:1em;
     
 }
-legend{
+#dados{
     font-weight: bold;
     text-align: center;
+    color:#685c4f;
 }
 
 label{
@@ -74,7 +66,20 @@ input, textarea{
     border:none;
 }
 
-.botoes{
+
+#btn{
+    margin-top: 10px;
+    gap: 3px;
+}
+
+#voltar{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    
+}
+
+/* .botoes{
     display: flex;
     justify-content: center;
     gap:0.9em;
@@ -94,5 +99,5 @@ a{
     text-decoration: none;
     color: #968572;
     
-}
+} */
 
