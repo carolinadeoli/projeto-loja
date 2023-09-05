@@ -109,6 +109,15 @@ img{
     
 }
 
-   
+#local{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: #685c4f;
+}
+
+#mapa{
+    text-align: center;
+}
 
 
