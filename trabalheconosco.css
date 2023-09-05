@@ -24,32 +24,21 @@ body{
 
 form{
     background-color: #84ab6d48;
-    width:100%;
     display: block;
     align-content: center;
-    padding:1em;
+    padding:0.8em;
     
 }
 #dados{
     font-weight: bold;
+    color:#968572;
     text-align: center;
-    color:#685c4f;
 }
 
 label{
     display: block;
     padding: 5px;
 }
-
-fieldset{
-    width: 20%;
-    margin: auto;
-    padding: 15px;
-    margin-top: 10px;
-    border:none;
-    
-    
-} 
 
 h2, legend {
     color: #968572;
@@ -60,12 +49,6 @@ label,input,textarea{
    box-sizing: border-box;
      
 }
-
-input, textarea{
-    background-color: #fafbf7;
-    border:none;
-}
-
 
 #btn{
     margin-top: 10px;
@@ -79,25 +62,4 @@ input, textarea{
     
 }
 
-/* .botoes{
-    display: flex;
-    justify-content: center;
-    gap:0.9em;
-    margin-top: 10px;
-   
-        
-}
-
-
-
-a{
-    display: flex;
-    justify-content: center;  
-    align-items: center;
-    border-radius: 5px;
-    padding: 10px;
-    text-decoration: none;
-    color: #968572;
-    
-} */
 

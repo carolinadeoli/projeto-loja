@@ -3,7 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
 
-@media screen and (min-width: 768px) and (max-width:992px) {
+/* @media screen and (min-width: 768px) and (max-width:992px) {
     
     fieldset{
         border:none;
@@ -36,12 +36,12 @@
 
    
    
-}
+} */
 body{
     background-color:  #fafbf7;
     font-family: 'Poppins', sans-serif;
 }
-h1{
+#title{
     
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
     text-align: center; 
@@ -49,14 +49,16 @@ h1{
     color:#84ab6d;
 }
 
-h2{
-    font-weight: bolder;
+#subtitulo{
+    color: #968572;
     text-align: center;
 }
 
 
-legend{
+#legend{
     font-weight: bold;
+    color:#968572;
+    text-align: center;
 }
 
 form{
@@ -77,10 +79,6 @@ form{
     
 } 
     
- 
-h2, legend {
-    color: #968572;
-}
 
 label,input,textarea{
     color: #685c4f;
