@@ -109,6 +109,9 @@ img{
     
 }
 
+#restaContainer, #resta{
+    color: #685c4f;
+}
 #local{
     display: flex;
     justify-content: center;
