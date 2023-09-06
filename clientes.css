@@ -102,13 +102,16 @@ a{
     
 }
 
-.botoes{
-    display: flex;
-    justify-content: center;
-    gap:0.8em;
+#btn{
+    margin-top: 10px;
+    gap: 3px;
 }
 
-
+#voltar{
+    
+    padding: 11px;
+    
+}
 
 
 
