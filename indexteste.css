@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Poppins', sans-serif;
+
+    /* box-sizing:border-box; */
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    
+    
+}
+
+
+body{
+    font-style: normal;
+    font-family: 'Popins',sans-serif;
+    /* height: 100vh;
+    width:100vw; */
+}
+
+/* header */
+#logo{
+    max-width: 90px;
+    border-radius: 50%;
+    
+    /* margin-right: 25%; */
+      
+}
+
+#topo{
+    background-color: #fafbf7;
+}
+
+#item{
+    color: #689d89;
+    font-weight: 700;
+}
+
+.container-hero{
+    background-color: #bba58f;
+    color: #fafbf7;
+    padding-top:1px;
+}
+.container-hero__banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(transparent,#bba58f,#fafbf7);
+    box-shadow: #8a7b69 0px 10px 30px 0px;
+}
+
+.container-hero__banner img{
+    width: 25vw;
+  
+}
+
+.container-green{
+    background-color:#84ab6d; 
+    color: #fafbf7;
+    padding-top:1px;
+}
+
+.sobrenos{
+    font-size:2em;
+    text-align:center;
+    margin-top:1em;
+    /* se der problema retirar alinhamento acima */
+}
+
+.sobrenos p{
+    line-height: 1.7;
+}
+
+.container-somos{
+    display: flex;
+    gap:5rem;
+}
+
+h1{
+    font-size:2em;
+    margin-bottom: 2em;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-style:italic;
+    color: #fafbf7;
+    
+}
