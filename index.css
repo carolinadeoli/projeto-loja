@@ -112,7 +112,9 @@ h1{
 .card-title{
     font-weight: 900;
 }
-
+#btn{
+    text-align: center;
+}
 .sobrenos{
     font-size:2em;
     text-align:center;
