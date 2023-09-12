@@ -24,12 +24,21 @@ body{
     width:100vw; */
 }
 
+h1{
+    font-size:2em;
+    margin-bottom: 2em;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-style:italic;
+    color: #fafbf7;
+    
+}
+
 /* header */
 #logo{
     max-width: 90px;
     border-radius: 50%;
     
-    /* margin-right: 25%; */
       
 }
 
@@ -37,11 +46,13 @@ body{
     background-color: #fafbf7;
 }
 
+/* menu */
 #item{
     color: #689d89;
     font-weight: 700;
 }
 
+/* banner */
 .container-hero{
     background-color: #bba58f;
     color: #fafbf7;
@@ -68,13 +79,14 @@ body{
 
 .section_title{
     background-color: white;
-    padding:2em 0;
     text-align: center;
-    margin:0;
+    padding:1em 0;
     color:#658354;
+    font-weight: 800;
 
 }
 
+/* cards */
 .card-body{
     color: #59744a;
 }
@@ -90,6 +102,7 @@ body{
     /* se der problema retirar alinhamento acima */
 }
 
+/* quemsomos */
 .sobrenos p{
     line-height: 1.7;
 }
@@ -102,6 +115,7 @@ body{
 .contatos_address{
     text-align:right;
     padding:1rem;
+    color:#658354;
     
 }
 
@@ -110,12 +124,80 @@ body{
     padding:0.8em;
 
 }
-h1{
-    font-size:2em;
-    margin-bottom: 2em;
-    margin-left: 20px;
-    font-weight: bolder;
-    font-style:italic;
-    color: #fafbf7;
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .nossaloja {
+        color:#658354;
+        text-decoration: none;
+        margin:1.5rem 3rem;
+        padding:0.7rem 1.5rem; 
+        width:6vw;
+        font-size:0.9em;
+        text-align:left;
+       
+              
+    }
+
+    .header_content{
+        font-size: 0.7em;
+    }
+    #logo{
+        width:12vw;
+    } 
+
+    
+    .container-hero__banner img{
+        width: 20vw;
+      
+    } 
+
+    
     
 }
+
+@media screen and (min-width:300px) and (max-width:767px){
+    
+    .header_content{
+        font-size: 0.6em;
+    }
+    .container-hero__banner img{
+        /* width: 100%; */
+        width: 40vw;
+      
+    }
+
+    .nossaloja{
+        color:#658354;
+        text-decoration: none;
+        margin:1.5em 3rem;
+        padding:0.7rem 1.5rem; 
+        width:6vw;
+        font-size:0.7em;
+        text-align:left;
+              
+    }
+
+    .container-green img{
+        width:45vw;
+    }
+    
+    .container-somos{
+        gap:2rem;
+    }
+    .sobrenos{
+        font-size:1.3em;
+        gap:2rem;
+       
+    }
+
+    .sobrenosp{
+        font-size: 0.9em;
+        
+    }
+
+    
+}
+
+
+

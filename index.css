@@ -285,18 +285,7 @@ h3{
         width: 20vw;
       
     } 
-
-    #carrinho{
-        max-width: 22px;
-        /* width:2.5vw;
-        height:3.6vh; */
-    }
-    #escudo{
-        max-width: 22px;
-        /* width:2.5vw;
-        height:3.6vh; */
-    }
-    
+      
 }
 
 @media screen and (min-width:300px) and (max-width:767px){
@@ -376,22 +365,7 @@ h3{
         padding:0.5em;
     
     }
-    #carrinho{
-        max-width: 18px;
-        /* width:2.8vw;
-        height:2.6vh; */
-    }
     
-    #escudo{
-        
-        max-width: 18px;
-        /* width:2.8vw;
-        height:2.6vh; */
-    }
-
-    #pgto{
-        font-size:0.8em;
-    }
 
 }
 
