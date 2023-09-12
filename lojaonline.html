@@ -11,32 +11,45 @@
     <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
 </head>
 <body>
-    <header class="header shadow-sm">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-1 col-md-4 col-lg-4 col-xl-4">
-                    <h1 id="title">Nossa Loja</h1>
-                </div>
-                <div class="col-8">
-                    <nav class="nav">
-                        <ul class="menu">
-                            <li><a href="index.html" target="_blank">Página Principal</a></li>
-                            <li><a href="#">Clientes</a>
-                                <ul>
-                                    <li><a href="clientes.html" target="_blank">Seus Dados</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contato.html" target="_blank">Contato</a></li>
-                            <li> <a href="trabalheconosco.html" target="_blank"> Trabalhe Conosco</a></li>
-                            <li><a href=""> <img src="imagens/carrinho-de-compras.png" alt="carrinho de compras" id="carrinho"></a></li>
-                        </ul>
+  <header class="shadow-sm" id="topo">
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="imagens/logo.png" alt="logo" id="logo">
+            </div>
+            <div class="col-8">
+                <div class="pos-f-t">
+                    <nav class="navbar navbar-light d-md-none justify-content-end">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuMobile">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
                     </nav>
+                  </div>
+                <div class="d-none d-md-block">
+                <nav class="nav justify-content">
+                    <a class="nav-link" id="item" href="lojaonline.html" target="_blank">Nossa Loja</a>
+                    <a class="nav-link" id="item" href="clientes.html" target="_blank">Clientes</a>
+                    <a class="nav-link" id="item" href="contato.html" target="_blank">Contato</a>
+                    <a class="nav-link" id="item" href="trabalheconosco.html" target="_blank"> Trabalhe Conosco</a>
+                    <a class="nav-link" id="item" href="sobre.html" target="_blank">Sobre a Dev</a>
+                </nav>
                 </div>
 
             </div>
-
-        </div>   
-    </header>
+            <div class="col-12">
+                <div class="collapse" id="menuMobile">
+                <nav class="nav flex-column">
+                    <a class="nav-link" id="item" href="lojaonline.html" target="_blank">Nossa Loja</a>
+                    <a class="nav-link" id="item" href="clientes.html" target="_blank">Clientes</a>
+                    <a class="nav-link" id="item" href="contato.html" target="_blank">Contato</a>
+                    <a class="nav-link" id="item" href="trabalheconosco.html" target="_blank"> Trabalhe Conosco</a>
+                    <a class="nav-link" id="item" href="sobre.html" target="_blank">Sobre a Dev</a>
+                </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
     <main>
         <h3>Confira nossos produtos:</h3>
         <h3>Óleos Essenciais</h3>
@@ -370,15 +383,6 @@
                         <p class="card-text">R$:25,00</p>
                         <button class="btn btn-success">Comprar</button>      
                     </div>
-                      <!-- <div class="card text-center">
-                            <img src="imagens/vel4.jpg" alt="Vela Aromática de Bambu" class="card-img-top">
-                            <div class="card-body pt-1">
-                                <h5 class="card-title">Vela Aromática de Bambu</h5>
-                                <p class="card-text">R$:25,00</p>
-                                <a href="#" class="btn btn-success">Comprar</a>
-    
-                            </div>
-                        </div> -->
                     </div>
             </div>
            

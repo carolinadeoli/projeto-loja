@@ -16,83 +16,23 @@ body{
     font-style: normal;
 }
 
-.header{
-    margin:auto; 
-    display: flex;
-    justify-content:space-evenly;
-    background-color: #fafbf7;
+
+/* header */
+#logo{
+    max-width: 90px;
+    border-radius: 50%;
     
-    
-}
-
-#title{
-    display: block;
-    margin-right: 25%;
-    color:#84ab6d;
-    font-size: large;
-    font-size: 2.5em; 
-    background-color: #fafbf7;
-    font-weight: 900;
-    font-style: italic;
-
-
       
 }
 
-
-
-.menu{
-    
-    list-style: none;
-    display: flex;
-    font-weight: bold;
-    font-style: normal;
+#topo{
     background-color: #fafbf7;
-    font-size: 0.9em;
-    
-        
 }
 
-.menu li{  
-    position: relative;
-    display: flex;
-    /* float:left; */
-   
-}
-
-.menu li a{
-    color:#689d89;
-    text-decoration: none;
-    padding: 5px 10px;
-    display: block;
-    font-size: 1.1em;
-}
-
-.menu li a:hover{
-    background: #bba58f;
-    color:#fafbf7;
-    box-shadow: 0 3px 5px 0 #ccc;
-    text-shadow: 0px 0px 5px#fff;
-}
-
-.menu li ul{
-    position: absolute;
-    top: 25px;
-    left: 0px;
-    background-color: #fff;
-    display: none;
-    
-}
-
-.menu li:hover ul, .menu li.over ul{
-    display:block;
-}
-
-.menu li ul li{
-    border: 1px solid #c7c5c5;
-    display: block;
-    width: 150px;
-    
+/* menu */
+#item{
+    color: #689d89;
+    font-weight: 700;
 }
 
 main h3, h4{
@@ -101,11 +41,6 @@ main h3, h4{
     justify-content: center;
     margin:15px;
 }
-
-#carrinho{
-    max-width: 30px;
-}
-
 
 
 footer{
