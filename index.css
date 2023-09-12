@@ -17,19 +17,19 @@ Desktop: 992px até 1200px;
 Grandes Telas: acima de 1200px;
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
 
 *{
     margin:0px;
     padding:0px;
     font-family: 'Poppins', sans-serif;
 
-    /* box-sizing:border-box; */
+    
 }
 
 html{
     font-family: 'Poppins', sans-serif;
-    /* font-family: Arial, Helvetica, sans-serif; */
+    
     
     
 }
@@ -41,11 +41,10 @@ p, a{
 body{
     font-style: normal;
     font-family: 'Popins',sans-serif;
-    /* height: 100vh;
-    width:100vw; */
+    
 }
 
-/* header */
+
 .header{
     margin:auto; 
     display: flex;
@@ -59,11 +58,11 @@ body{
     width: 6vw;
     border-radius: 50%;
     display: flex;
-    /* margin-right: 25%; */
+    
       
 }
 
-/* cores */
+
 .container-light{
     background-color: #fafbf7;
     color:#658354;
@@ -82,7 +81,7 @@ body{
     padding-top:1px;
 }
 
-/* titulos */
+
 h1{
     font-size:2em;
     margin-bottom: 2em;
@@ -104,7 +103,7 @@ h3{
 }
 
 
-/* nav */
+
 .menu{
     
     list-style: none;
@@ -120,7 +119,7 @@ h3{
 .menu li{  
     position: relative;
     display: flex;
-    /* float:left; */
+    
    
 }
 
@@ -162,7 +161,7 @@ h3{
 
 
 
-/* banner */
+
 .container-hero__banner{
     display: flex;
     justify-content: space-between;
@@ -176,7 +175,7 @@ h3{
   
 }
 
-/* produtos */
+
 .container-produtos{
     text-align: center;
     width:100%;
@@ -187,7 +186,6 @@ h3{
 }
 .produtosContainer{
     display: flex;
-    /* text-align: center; */
     gap:1.1em;
        
 }
@@ -212,7 +210,7 @@ h3{
    
 }
 
-/* botao nossa loja */
+
 .nossaloja{
     color:#658354;
     text-decoration: none;
@@ -226,12 +224,12 @@ h3{
           
 }
 
-/* quem somos */
+
 .sobrenos{
     font-size:2em;
     text-align:center;
     margin-top:1em;
-    /* se der problema retirar alinhamento acima */
+   
 }
 
 .sobrenos p{
@@ -243,7 +241,7 @@ h3{
     gap:5rem;
 }
 
-/* contatos */
+
 
 .contatos_address{
     text-align:right;
@@ -303,7 +301,7 @@ h3{
     }
 
     .container-hero__banner img{
-        /* width: 100%; */
+       
         width: 40vw;
       
     }
@@ -367,14 +365,138 @@ h3{
     }
     
 
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Poppins', sans-serif;
+    
+
+    /* box-sizing:border-box; */
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    
+    
 }
 
 
+body{
+    font-style: normal;
+    font-family: 'Popins',sans-serif;
+    /* height: 100vh;
+    width:100vw; */
+}
+
+h1{
+    font-size:2em;
+    margin-bottom: 2em;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-style:italic;
+    color: #fafbf7;
+    
+}
+
+/* header */
+#logo{
+    max-width: 90px;
+    border-radius: 50%;
+    
+      
+}
+
+#topo{
+    background-color: #fafbf7;
+}
+
+/* menu */
+#item{
+    color: #689d89;
+    font-weight: 700;
+}
+
+/* banner */
+.container-hero{
+    background-color: #bba58f;
+    color: #fafbf7;
+    padding-top:1px;
+}
+.container-hero__banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(transparent,#bba58f,#fafbf7);
+    box-shadow: #8a7b69 0px 10px 30px 0px;
+}
+
+.container-hero__banner img{
+    width: 25vw;
+  
+}
+
+.container-green{
+    background-color:#84ab6d; 
+    color: #fafbf7;
+    padding-top:1px;
+}
+
+.section_title{
+    background-color: white;
+    text-align: center;
+    padding:1em 0;
+    color:#658354;
+    font-weight: 800;
+
+}
+
+/* cards */
+.card-body{
+    color: #59744a;
+}
+
+.card-title{
+    font-weight: 900;
+}
+
+.sobrenos{
+    font-size:2em;
+    text-align:center;
+    margin-top:1em;
+    /* se der problema retirar alinhamento acima */
+}
+
+/* quemsomos */
+.sobrenos p{
+    line-height: 1.7;
+}
+
+.container-somos{
+    display: flex;
+    gap:5rem;
+}
+
+.contatos_address{
+    text-align:right;
+    padding:1rem;
+    color:#658354;
+    
+}
+
+.footer{
+    text-align:center;
+    padding:0.8em;
+
+}
 
 
-
-
-    /* .nossaloja {
+@media screen and (min-width:768px) and (max-width:992px) {
+    .nossaloja {
         color:#658354;
         text-decoration: none;
         margin:1.5rem 3rem;
@@ -398,41 +520,24 @@ h3{
         width: 20vw;
       
     } 
+    .footer{
+        font-size:0.7em;
     
-   
-
-@media screen (max-width: 767px){
-    #logo{
-        width:55vw;
     }
 
-    h1{
-        font-size: 1.3em;
+    
+    
+}
+
+@media screen and (min-width:300px) and (max-width:767px){
+    
+    .header_content{
+        font-size: 0.7em;
     }
-
-
-    .menu{
-        font-size: 0.6em;
-    }
-
     .container-hero__banner img{
-        width: 100%;
+        /* width: 100%; */
+        width: 40vw;
       
-    }
-
-    .section_title{
-        font-size: 1.1em;
-    }
-    
-    h3{
-        font-size:1em;
-    }
-    .produto_card{
-        font-size:0.9em;
-    }
-
-    .produto_card img{
-        width:100%;
     }
 
     .nossaloja{
@@ -463,19 +568,14 @@ h3{
         font-size: 0.9em;
         
     }
-
-    .contatos_address{
-        text-align:right;
-        font-size: 0.9em;
-        padding:0.5rem;
-        
-    }
-    
     .footer{
         font-size:0.7em;
-        text-align:center;
-        padding:0.5em;
     
     }
+    
+}
 
-} */
+
+
+
+
