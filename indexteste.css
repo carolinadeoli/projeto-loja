@@ -151,6 +151,10 @@ h1{
         width: 20vw;
       
     } 
+    .footer{
+        font-size:0.7em;
+    
+    }
 
     
     
@@ -195,7 +199,10 @@ h1{
         font-size: 0.9em;
         
     }
-
+    .footer{
+        font-size:0.7em;
+    
+    }
     
 }
 
