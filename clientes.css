@@ -3,44 +3,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
 
-/* @media screen and (min-width: 768px) and (max-width:992px) {
-    
-    fieldset{
-        border:none;
-        width: 80%;
-        margin: auto;
-        padding: 15px;
-        margin-top: 10px;
-            
-    }
-    
-   
-}   
-@media screen and (min-width: 300px) and (max-width: 768px) {
-    h1{
-        font-size: 25px;
-        
-    }
-    h2{
-        font-size:20px;
-    }
-    
-    td{
-        display: block;
-    }
-    
-    .login{
-        width:102%;
-        margin-right: 1em;
-    }
 
-   
-   
-} */
 body{
     background-color:  #fafbf7;
     font-family: 'Poppins', sans-serif;
 }
+/* header */
+#logo{
+    max-width: 90px;
+    border-radius: 50%;
+    
+      
+}
+#topo{
+    background-color: #fafbf7;
+}
+/* menu */
+#item{
+    color: #689d89;
+    font-weight: 700;
+}
+
 #title{
     
     /* font-family: Georgia, 'Times New Roman', Times, serif; */

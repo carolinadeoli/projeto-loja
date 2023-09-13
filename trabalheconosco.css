@@ -10,11 +10,25 @@
 
 body{
     
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 15px;
     font-style: normal;
     
    
+}
+/* header */
+#logo{
+    max-width: 90px;
+    border-radius: 50%;
+    
+      
+}
+#topo{
+    background-color: #fafbf7;
+}
+/* menu */
+#item{
+    color: #689d89;
+    font-weight: 700;
 }
 
 #title{
