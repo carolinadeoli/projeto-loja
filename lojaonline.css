@@ -16,6 +16,20 @@ body{
     font-style: normal;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #fafbf7;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #689d89;
+    border-radius: 30px;
+}
+
 
 /* header */
 #logo{

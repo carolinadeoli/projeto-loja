@@ -10,6 +10,21 @@ body{
     background-color:  #fafbf7;
     font-family: 'Poppins', sans-serif;
 }
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #fafbf7;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #689d89;
+    border-radius: 30px;
+}
+
 /* header */
 #logo{
     max-width: 90px;
