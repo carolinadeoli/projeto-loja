@@ -122,10 +122,6 @@ img{
     color: #685c4f;
 }
 
-#mapa{
-    text-align: center;
-}
-
 @media (min-width: 992px) {
     img{
         max-width:320px;
