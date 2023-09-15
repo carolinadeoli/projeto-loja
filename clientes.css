@@ -60,7 +60,11 @@ body{
     color:#968572;
     text-align: center;
 }
-
+table{
+    width:100%;
+    
+    
+}
 form{
     background-color: #84ab6d48;
     width:100%;
@@ -78,7 +82,7 @@ form{
     
     
 } 
-    
+
 
 label,input,textarea{
     color: #685c4f;
