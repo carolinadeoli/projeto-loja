@@ -156,9 +156,17 @@ h1{
 .footer{
     text-align:center;
     padding:0.8em;
+    
 
 }
-
+footer a{
+    text-decoration: none;
+}
+footer span{
+    color: #fafbf7;
+    text-decoration: none;
+    
+}
 
 @media screen and (min-width:768px) and (max-width:992px) {
     .nossaloja {
