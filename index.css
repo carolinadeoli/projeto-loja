@@ -191,7 +191,7 @@ footer span{
 
     
     .container-hero__banner img{
-        width: 20vw;
+         width: 20vw;
       
     } 
     .footer{
@@ -206,14 +206,18 @@ footer span{
 @media screen and (min-width:300px) and (max-width:767px){
     
     .header_content{
-        font-size: 0.7em;
+        font-size: 0.5em;
     }
-    .container-hero__banner img{
-        /* width: 100%; */
+    .container-hero__banner img{   
         width: 40vw;
       
     }
-
+    h5{
+        font-size: 0.9em;
+    }
+    .card-text{
+        font-size:0.8em;
+    }
     .nossaloja{
         color:#658354;
         text-decoration: none;
@@ -233,14 +237,20 @@ footer span{
         gap:2rem;
     }
     .sobrenos{
-        font-size:1.3em;
+        font-size: 0.9em;
         gap:2rem;
        
     }
-
+    
     .sobrenosp{
         font-size: 0.9em;
         
+    }
+    #contatos{
+        font-size: 0.9em;
+    }
+    .contatos_address{
+        font-size:0.8em;
     }
     .footer{
         font-size:0.7em;
