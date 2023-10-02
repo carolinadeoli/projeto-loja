@@ -212,6 +212,9 @@ footer span{
         width: 40vw;
       
     }
+    #produtos{
+        font-size: 0.9em;
+    }
     h5{
         font-size: 0.9em;
     }
@@ -237,13 +240,13 @@ footer span{
         gap:2rem;
     }
     .sobrenos{
-        font-size: 0.9em;
+        font-size: 1em;
         gap:2rem;
        
     }
     
     .sobrenosp{
-        font-size: 0.9em;
+        font-size: 0.8em;
         
     }
     #contatos{
